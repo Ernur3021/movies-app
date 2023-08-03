@@ -48,9 +48,7 @@ body {
 .menu__dats {
   cursor: pointer;
 }
-
 /* ============== MAIN ==============*/
-
 .all__box {
   display: flex;
 }
@@ -60,7 +58,6 @@ body {
   border-right: 1px solid #c2c2c2e0;
   margin-left: 5px;
 }
-
 .table__btn li {
   color: white;
   width: 160px;
