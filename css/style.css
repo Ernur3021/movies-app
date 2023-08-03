@@ -1,0 +1,205 @@
+body {
+  background-color: rgba(12, 12, 12, 0.966);
+}
+.container {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.header {
+  width: 100%;
+  height: 55px;
+  /* border: 1px solid red; */
+}
+.header__wrapper {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo__youtube img {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+.search__input__wrapper {
+  position: relative;
+}
+.search {
+  background-color: rgb(255, 255, 255);
+  border-radius: 80px;
+  border: 1px solid rgb(227, 227, 227);
+  transition: box-shadow 300ms cubic-bazier(0.4, 0, 0.2, 1);
+  height: 38px;
+  width: 300px; 
+  padding-left: 12px;
+}
+.search__icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  z-index: 10;
+  cursor: pointer;
+}
+.menu__dats {
+  cursor: pointer;
+}
+
+/* ============== MAIN ==============*/
+
+.all__box {
+  display: flex;
+}
+.right__box {
+  width: 220px;
+  height: 88vh;
+  border-right: 1px solid #c2c2c2e0;
+  margin-left: 5px;
+}
+
+.table__btn li {
+  color: white;
+  width: 160px;
+  padding: 16px 12px;
+  border-radius: 35px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.table__btn li:hover {
+  background-color: red;
+  transition: all 0.4s ease; 
+}
+.table__a {
+  position: relative;
+}
+.home {
+  position: absolute;
+  top: 4.3%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+.chevron_1 {
+  position: absolute;
+  top: 14%;
+  left: 8px;
+}
+.chevron_2 {
+  position: absolute;
+  top: 14%;
+  left: 22px;
+}
+.chevron_3 {
+  position: absolute;
+  top: 25.8%;
+  left: 8px;
+}
+.chevron_4 {
+  position: absolute;
+  top: 25.8%;
+  left: 22px;
+}
+.chevron_5 {
+  position: absolute;
+  top: 36.8%;
+  left: 8px;
+}
+.chevron_6 {
+  position: absolute;
+  top: 36.8%;
+  left: 22px;
+}
+.chevron_7 {
+  position: absolute;
+  top: 48.4%;
+  left: 8px;
+}
+.chevron_8 {
+  position: absolute;
+  top: 48.4%;
+  left: 22px;
+}
+.music {
+  position: absolute;
+  top: 58.8%;
+  left: 10px;
+  width: 20px;
+}
+.education {
+  position: absolute;
+  top: 70.4%;
+  left: 10px;
+  width: 20px;
+}
+.dash__podcast {
+  position: absolute;
+  top: 81.5%;
+  left: 10px;
+  width: 20px;
+}
+.movie__cinema {
+  position: absolute;
+  top: 93.4%;
+  left: 10px;
+  width: 20px;
+}
+/* ==========  LEFT BOX ============ */
+.left__box {
+  border: 1px solid red;
+}
+.videos {
+  width: 100%;
+}
+.video__content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  color: #fff;
+  margin-left: 5px;
+}
+.video__card {
+  /* border: 1px solid red; */
+  margin-left: 10px;
+  width: 360px;
+  height: 320px;
+  border-radius: 25px;
+  background-color: rgb(30, 30, 30);
+}
+.video__wrapper {
+  overflow: hidden;
+}
+.video-image {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+}
+.video__title {
+  margin: 0px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.50;
+  letter-spacing: 0.00938em;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.checked {
+  display: flex;
+  gap: 8px;
+  margin: 0px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.37;
+  letter-spacing: 0.00875em;
+  font-weight: 400;
+  color: gray;
+}
